@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 class Card:
   _suit_symbols = [u"\u2665",u"\u2663", u"\u2666", u"\u2660"]
   _rank_symbols = [" A"," 2"," 3"," 4"," 5"," 6"," 7"," 8"," 9","10"," J"," Q"," K"]

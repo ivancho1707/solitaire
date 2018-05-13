@@ -1,9 +1,13 @@
-from solitaire.Deck import Deck
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+from solitaire.Game import Game
+
 
 def main():
-    deck = Deck().shuffle()
-    for card in deck:
-        print card
+    game = Game()
+    game.print_board()
+
 
 if __name__ == "__main__":
     main()
